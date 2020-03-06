@@ -31,8 +31,7 @@ export class Payment extends Component {
                         <ul>
                             <li>Mobile</li>
                             <li>mCash (comming soon)</li>
-                            <li>Payment (coming soon)</li>
-                            <li>Visa QR</li>
+                            <li>POS (coming soon)</li>
                         </ul>
                         </div>
                         <h2 className="payment-heading">
