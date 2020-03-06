@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import './Hero.css';
 import map from '../assets/images/svgs/map.svg'
-import play from '../assets/images/svgs/play.svg'
+import play from '../assets/images/play-button.png'
 export class Hero extends Component {
     render() {
         return (
@@ -31,7 +31,7 @@ export class Hero extends Component {
                                 </div>
                         </div> 
                         <div className="Hero__footer-video d-flex align-items-center">
-                            <p className="mr-3">Watch MTN Chief Transformation Officer, Olubayo <br /> Adekanmbi, discuss working with Paystack</p>
+                            <p className="mr-3">Watch MTN Chief Transformation Officer, Olubayo Adekanmbi, discuss working with Paystack</p>
                             <a target="_blank" className="play-link d-flex justify-content-center align-items-center"  rel="noopener noreferrer" href="https://www.youtube.com/watch?v=aQ06f8vARhw"><img src={play} alt=""/></a>
                         </div>
                     </div>
