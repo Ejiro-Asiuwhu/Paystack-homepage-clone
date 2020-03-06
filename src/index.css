@@ -14,6 +14,7 @@
 }
 :root {
   --color-text-main: #011b33;
+  --color-btn-primary: #3bb75e;
 }
 * {
   margin: 0;

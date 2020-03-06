@@ -1,6 +1,10 @@
 .Header {
     background-color: #F1FEF4;
 }
+
+.Hero {
+    padding: 0 7rem;
+}
 .Hero__main h1{
     font-family: 'GD Boing';
     font-size: 4.8rem;
