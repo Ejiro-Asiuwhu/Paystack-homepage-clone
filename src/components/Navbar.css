@@ -1,5 +1,9 @@
 nav {
     padding: 1.2rem 4.8rem;
+    background-color: #F1FEF4;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 .nav__logo img {
