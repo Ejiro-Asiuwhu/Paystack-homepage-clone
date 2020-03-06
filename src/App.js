@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-// import Navbar from './components/Navbar';
-// import Hero from './components/Hero'
-import Navbar from './components/Navbar'
+import Homepage from './Pages/Homepage'
   
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <Hero /> */}
+      <Homepage />
       
     </div>
   );

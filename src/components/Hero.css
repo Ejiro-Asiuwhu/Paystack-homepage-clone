@@ -1,0 +1,114 @@
+.Header {
+    background-color: #F1FEF4;
+}
+.Hero__main h1{
+    font-family: 'GD Boing';
+    font-size: 4.8rem;
+}
+
+.Hero__main p {
+    font-size: 2rem;
+}
+.custom-btn-2 {
+    padding: 0 3.2rem;
+}
+
+.mtn {
+    width: 7rem;
+}
+.bolt {
+    width: 5rem;
+}
+.axa {
+    width: 14rem;
+}
+.ups {
+    width: 3rem;
+}
+
+.Hero__left-body {
+    max-width: 60rem;
+    padding: 18rem 0 16rem 0;
+}
+.Hero__left-logo p {
+    font-size: 1.4rem;
+}
+.play-link img {
+       width: 3rem;
+}
+.Hero__footer-video {
+    width: 45rem;
+}
+.Hero__footer-video p {
+    text-align: end;
+}
+.Hero__right-body {
+    position: relative;
+}
+.Hero__right-body img {
+    position: absolute;
+    top: 2rem;
+    left: -5rem;
+    width: 74rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Hero__right-body img {
+        top: -35rem;
+        left: -75rem;
+        width: 136rem;
+    }
+    .Hero__footer-video {
+    width: 52rem;
+}
+    .Hero__left-body {
+    padding-bottom: 13rem;
+}
+.mtn, .bolt {
+    width: 6rem;
+}
+}
+@media screen and (max-width: 425px) {
+    div.Hero {
+        padding: 0 2rem !important;
+    }
+    .Hero__left-body {
+    padding-bottom: 10rem;
+}
+.mtn, .bolt {
+    width: 6rem;
+}
+div.Hero__footer {
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+img.mtn, img.bolt, img.axa {
+    margin-right: 2rem !important;
+} 
+.Hero__footer-video {
+    width: auto;
+}
+.mtn {
+    width: 4rem
+}
+.bolt {
+    width: 3rem;
+}
+.axa {
+    width: 12rem;
+}
+.ups {
+    width: 2rem;
+}
+.Hero__left-logo {
+    margin-bottom: 6rem;
+}
+.Hero__footer-video p {
+    text-align: start;
+}
+div.Hero__footer-video {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+}
