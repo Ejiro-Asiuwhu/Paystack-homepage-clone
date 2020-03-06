@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../logo.svg'
+import logo from '../assets/images/svgs/logo.svg'
 import NigFlag from '../assets/images/Nigeria_flag_small.jpg';
 import './Navbar.css'
 class Navbar extends Component {
