@@ -8,7 +8,7 @@ export class Hero extends Component {
         return (
             <header className="Header">
                 <Navbar />
-                <div className="Hero overflow-hidden px-5 mx-auto">
+                <div className="Hero overflow-hidden mx-auto">
                     <div className="Hero__main d-flex">
                         <div className="Hero__left-body">
                             <h1 className="mb-3">Modern online and offline payments for Africa</h1>
