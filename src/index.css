@@ -1,3 +1,40 @@
+@import url(//db.onlinewebfonts.com/c/2d8cf0a1ae3cf90fc45730a9e56b1db2?family=GD+Boing);
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('./assets/fonts/Graphik-Medium.eot');
+   src: local('./assets/fonts/Graphik Medium'),
+   local('./assets/fonts/Graphik-Medium'),
+   url('./assets/fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+   url('./assets/fonts/Graphik-Medium.woff2') format('woff2'),
+   url('./assets/fonts/Graphik-Medium.woff') format('woff'),
+   url('./assets/fonts/Graphik-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}
+:root {
+  --color-text-main: #011b33;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*::selection {
+  color: #011B33;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +42,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media all and (max-width: 320px) {
+  html {
+    font-size: 58.5%;
+  }
 }
