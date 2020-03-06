@@ -58,3 +58,15 @@ a {
 .flag {
     width: 1.8rem;
 }
+
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 1.2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__item-link {
+        display: none;
+    }
+}
