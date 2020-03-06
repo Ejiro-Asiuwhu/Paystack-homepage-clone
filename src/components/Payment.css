@@ -12,7 +12,7 @@
     padding-top: 8rem;
 }
 .payment__main-right {
-    max-width: 60rem;
+    max-width: 54rem;
 }
 .payment__main-right p {
     font-size: 1.9rem;
@@ -23,11 +23,11 @@
 ul{
     list-style: none;
 }
-ul:first-of-type {
+.feature ul:first-of-type {
     margin-right: 10rem !important;
 }
 
-ul li {
+.feature ul li {
     padding: 1rem;
     font-size: 1.6rem;
 }
@@ -37,4 +37,71 @@ ul li {
 }
 .text-link:hover {
     color: var(--color-btn-primary);
+}
+
+@media screen and  (max-width: 1024px) {
+    .Payment {
+    padding: 15rem 3rem;
+}
+    .paymant__main-left img {
+    max-width: 47rem;
+}
+div.payment__main-right {
+    margin-top: -5rem !important;
+    max-width: 40rem;
+}
+.payment-heading {
+        font-size: 3.6rem;
+}
+}
+@media screen and  (max-width: 768px) {
+   .paymant__main-left img {
+    max-width: 30rem;
+}
+div.payment__main-right {
+    margin-top: -33rem !important;
+    max-width: 37rem;
+}
+    .heading {
+        margin-top: -6rem;
+        margin-bottom: 12rem;
+        max-width: 50%;
+    }
+    .Payment {
+    padding: 15rem 2rem;
+}
+.payment__main {
+    padding-top: 27rem;
+}
+.payment-heading {
+    font-size: 3rem;
+}
+.payment__main-right p, .feature ul li {
+    font-size: 1.4rem;
+}
+}
+@media screen and  (max-width: 425px) {
+    .payment__main {
+        flex-direction: column;
+    }
+    .Payment {
+    padding: 6rem 2rem;
+}
+div.payment__main {
+    padding-top: 2rem;  
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+div.payment__main-right {
+    margin-top: 2rem !important;
+}
+.heading {
+    margin-top: 0;
+    margin-bottom: 6rem;
+    max-width: 100%;
+}
+h2.payment-heading {
+    margin-top: 1.4rem !important;
+}
 }
