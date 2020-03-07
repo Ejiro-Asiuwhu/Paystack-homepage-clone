@@ -4,6 +4,7 @@ import Payment from '../components/Payment'
 import Api from '../components/Api'
 import Trust from '../components/Trust'
 import Empower from '../components/Empower';
+import Partners from '../components/Partners';
 
 export class Homepage extends Component {
     render() {
@@ -14,6 +15,7 @@ export class Homepage extends Component {
                 <Api />
                 <Trust />
                 <Empower />
+                <Partners />
             </>
         )
     }
