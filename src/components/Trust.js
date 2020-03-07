@@ -6,8 +6,8 @@ export class Trust extends Component {
         return (
             <section className="Trust">
                 <div className="Trust-heading mb-5">
-                    <h1>Trusted by 60,000+ businesses</h1>
-                    <p>Thousands of organizations of all sizes trust Paystack to grow their business.</p>  
+                    <h1 className="Trust__heading">Trusted by 60,000+ businesses</h1>
+                    <p className="Trust__subheading">Thousands of organizations of all sizes trust Paystack to grow their business.</p>  
                 </div>
                 <div className="card-container d-flex justify-content-center align-items-center mt-5">
                     <div className="card-custom card-1 mr-5">

@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Payment from '../components/Payment'
 import Api from '../components/Api'
 import Trust from '../components/Trust'
+import Empower from '../components/Empower';
 
 export class Homepage extends Component {
     render() {
@@ -12,6 +13,7 @@ export class Homepage extends Component {
                 <Payment />
                 <Api />
                 <Trust />
+                <Empower />
             </>
         )
     }
