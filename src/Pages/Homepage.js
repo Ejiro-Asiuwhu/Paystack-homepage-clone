@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import Hero from '../components/Hero'
 import Payment from '../components/Payment'
-// import Api from '../components/Api'
+import Api from '../components/Api'
+import Trust from '../components/Trust'
+import Empower from '../components/Empower';
+import Partners from '../components/Partners';
+import Accept from '../components/Accept';
 
 export class Homepage extends Component {
     render() {
@@ -9,7 +13,11 @@ export class Homepage extends Component {
             <>
                 <Hero />
                 <Payment />
-                {/* <Api /> */}
+                <Api />
+                <Trust />
+                <Empower />
+                <Partners />
+                <Accept />
             </>
         )
     }

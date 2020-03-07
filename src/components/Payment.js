@@ -40,7 +40,7 @@ export class Payment extends Component {
                         <p className="my-5">
                             We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.
                         </p>
-                        <a class="text-link" href="https://paystack.com/success-rates"> <span><img className="mr-3" src={play} alt=""/></span> Find out how we achieve high success rates</a>
+                        <a className="text-link" href="https://paystack.com/success-rates"> <span><img className="mr-3" src={play} alt=""/></span> Find out how we achieve high success rates</a>
                     </div>
                 </div>
             </section>

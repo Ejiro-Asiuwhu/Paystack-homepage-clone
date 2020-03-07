@@ -6,6 +6,7 @@ import play from '../assets/images/svgs/play.svg'
 export class Api extends Component {
     render() {
         return (
+        <>
            <section className="Payment">
                 <div className="payment__main d-flex justify-content-between">
                     <div className="payment__main-right mt-n5">
@@ -33,6 +34,32 @@ export class Api extends Component {
                     </div>
                 </div>
             </section>
+             <section className="Payment">
+                <div className="payment__main d-flex justify-content-between">
+                     <div className="paymant__main-left">
+                        <video autoPlay muted loop style={{width: '45rem'}}>
+                           <source class="u-lazyload" src="https://assets.paystack.com/assets/video/content/Advanced-Fraud-Protection.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="payment__main-right mt-n5">
+                        <h2 className="payment-heading mb-3">
+                            Protect yourself and your customers with advanced fraud detection
+                        </h2>
+                        <p className="my-4">
+                            Paystack’s combination of automated and manual fraud systems protect 
+                            you from fraudulent transactions and associated chargeback claims.
+                        </p>
+                        <h2 className="payment-heading mb-3">
+                            Detailed reporting for accounting, reconciliation, and audits
+                        </h2>
+                        <p className="my-4">
+                            Understand your customers’ purchase patterns and do easy 
+                                reconciliations with a robust data Dashboard and easy exports.
+                        </p>
+                    </div>
+                </div>
+                </section>
+       </>                
         )
     }
 }
