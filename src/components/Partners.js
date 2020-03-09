@@ -4,7 +4,7 @@ import './Partners.css';
 export class Partners extends Component {
     render() {
         return (
-           <section className="Trust">
+           <section className="Partners Trust">
                 <div className="Trust-heading mb-5">
                     <h1 className="Trust__heading">Backed by strong global partners</h1>
                     <p className="Trust__subheading mb-5">Paystack is backed by notable investors as well as some of the best payments companies on the planet.</p>  
