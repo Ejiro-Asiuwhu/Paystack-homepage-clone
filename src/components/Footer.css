@@ -1,0 +1,25 @@
+footer {
+    background-color: #fff !important;
+    background-image: none !important;
+}
+.footer__link ul {
+    margin-right: 10rem !important;
+}
+.footer__link ul li {
+    margin-bottom: 1.5rem !important;
+}
+.footer__link h4 {
+    font-size: 1.8rem;
+}
+ul.no-margin {
+    margin-right: 0 !important;
+}
+@media screen and (max-width: 425px) {
+    footer {
+        flex-direction: column;
+    }
+    .footer__link ul {
+    margin-right: 0 !important;
+    margin-bottom: 2rem !important;
+}
+}

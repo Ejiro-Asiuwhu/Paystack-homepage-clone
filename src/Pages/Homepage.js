@@ -6,6 +6,7 @@ import Trust from '../components/Trust'
 import Empower from '../components/Empower';
 import Partners from '../components/Partners';
 import Accept from '../components/Accept';
+import Footer from '../components/Footer';
 
 export class Homepage extends Component {
     render() {
@@ -18,6 +19,7 @@ export class Homepage extends Component {
                 <Empower />
                 <Partners />
                 <Accept />
+                <Footer />
             </>
         )
     }

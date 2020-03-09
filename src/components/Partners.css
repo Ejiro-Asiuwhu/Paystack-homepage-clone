@@ -1,3 +1,9 @@
+.Partners {
+    background-image: url('https://paystack.com/assets/img/patterns/circular-pattern.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
 img.card-logo {
     width: 6rem !important;
 }
