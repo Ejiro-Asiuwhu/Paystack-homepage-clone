@@ -1,6 +1,7 @@
 .Trust {
     padding: 15rem 7rem;
-    background: #eaf6fc;
+    background-color: #eaf6fc;
+    background-image: url('https://paystack.com/assets/img/patterns/checked-pattern-blue.png');
 }
 
 .Trust__heading {
