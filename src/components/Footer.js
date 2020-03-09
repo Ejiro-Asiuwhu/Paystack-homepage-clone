@@ -5,7 +5,7 @@ export class Footer extends Component {
     render() {
         return (
             <footer className="Trust d-flex">
-                <div className="footer__link-1">
+                <div className="footer__link">
                     <ul>
                         <h4>Why Paystack</h4>
                         <li> <a href="/">Success Rate</a></li>
@@ -16,7 +16,7 @@ export class Footer extends Component {
                         <li> <a href="/">For Betting</a></li>
                     </ul>
                 </div>
-                 <div className="footer__link-1">
+                 <div className="footer__link">
                     <ul>
                         <h4>Pricing</h4>
                         <li> <a href="/">Success Rate</a></li>
@@ -27,7 +27,7 @@ export class Footer extends Component {
                         <li> <a href="/">For Betting</a></li>
                     </ul>
                 </div>
-                 <div className="footer__link-1">
+                 <div className="footer__link">
                     <ul>
                         <h4>Developers</h4>
                         <li> <a href="/">Success Rate</a></li>
@@ -38,8 +38,8 @@ export class Footer extends Component {
                         <li> <a href="/">For Betting</a></li>
                     </ul>
                 </div>
-                 <div className="footer__link-1">
-                    <ul>
+                 <div className="footer__link">
+                    <ul className="no-margin">
                         <h4>About</h4>
                         <li> <a href="/">Success Rate</a></li>
                         <li> <a href="/">For Entreprenurs</a></li>
