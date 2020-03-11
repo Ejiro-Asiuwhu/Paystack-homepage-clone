@@ -1,0 +1,22 @@
+.Partners {
+    background-image: url('https://paystack.com/assets/img/patterns/circular-pattern.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+img.card-logo {
+    width: 6rem !important;
+}
+.ceo {
+    object-fit: cover;
+    max-width: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.ceo-container a {
+    color: var(--color-text-main);
+}
+.ceo-container p {
+    font-weight: 600;
+}

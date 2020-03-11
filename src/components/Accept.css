@@ -1,0 +1,16 @@
+.Accept {
+    background-color: #fff !important;
+    background-image: url('https://paystack.com/assets/img/patterns/checked-pattern-blue.png');
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+.Accept {
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 425px) {
+    section.Accept {
+        align-items: flex-start !important;
+    }
+}
